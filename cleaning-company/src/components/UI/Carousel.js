@@ -11,7 +11,7 @@ export default function CarouselElement() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel activeIndex={index} onSelect={handleSelect} >
       <Carousel.Item interval={1500}>
         <img
           src="https://firebasestorage.googleapis.com/v0/b/cleaning-company-f9b3e.appspot.com/o/top-slider-1.png?alt=media&token=648964bd-650a-41c5-8b38-362ae52cea43"

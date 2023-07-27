@@ -1,6 +1,7 @@
 import classes from "./Card.module.css";
 
-export default function Card(props) {
+// TODO: props
+export default function Card() {
   return (
     <div className={classes.card}>
       <i className={`${classes.clock} fa-regular fa-clock`}></i>

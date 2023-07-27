@@ -1,7 +1,7 @@
 .navigation-header {
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   opacity: 0.8;
 }
 
@@ -16,6 +16,7 @@
   display: flex;
   font-weight: 900;
   padding: 1rem;
+  transition: top 0.3s;
 }
 
 .menu-options {

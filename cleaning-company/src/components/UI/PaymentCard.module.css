@@ -1,0 +1,55 @@
+.payment-card {
+  border-radius: 5%;
+  border: 1px solid #f0f0f0;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 25rem;
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .payment-card {
+    width: 40%;
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .payment-card {
+    width: 70%;
+    margin: 1rem;
+  }
+}
+
+.type-of-cleaning {
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  text-align: center;
+}
+
+.cleaning-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.cleaning-list li {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.specialClass {
+  background: url("https://firebasestorage.googleapis.com/v0/b/cleaning-company-f9b3e.appspot.com/o/blue-cleaning-hand.png?alt=media&token=42201586-693d-4a4f-a1e3-541d9bf630a1");
+  background-position: center;
+  background-blend-mode: overlay;
+
+  background-color: #0eb2e7;
+  color: white;
+  transform: scale(1.2);
+}
+

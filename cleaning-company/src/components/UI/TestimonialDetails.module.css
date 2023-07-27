@@ -1,0 +1,16 @@
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  padding: 10px;
+}
+.avatar {
+  border-radius: 50%;
+  width: 20%;
+}
+
+.avatar:hover {
+  border: 3px solid #0eb2e7;
+}

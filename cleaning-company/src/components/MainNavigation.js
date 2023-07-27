@@ -13,13 +13,20 @@ export default function MainNavigation() {
     <nav className={classes.navigation}>
       <ul className={`${classes["menu-options"]}`}>
         <li>
-          <AnchorLink href="#home" className="anchor-link">Home</AnchorLink>
+          <AnchorLink href="#home" className="anchor-link">
+            Home
+          </AnchorLink>
         </li>
         <li>
-          <AnchorLink href="#about-us" className="anchor-link">About Us</AnchorLink>
+          <AnchorLink href="#about-us" className="anchor-link">
+            About Us
+          </AnchorLink>
         </li>
+
         <li>
-          <AnchorLink href="#pricing" className="anchor-link">Pricing</AnchorLink>
+          <AnchorLink href="#services" className="anchor-link">
+            Services
+          </AnchorLink>
         </li>
 
         <li className={classes.logo}>
@@ -27,13 +34,19 @@ export default function MainNavigation() {
         </li>
 
         <li>
-          <AnchorLink href="#what-clients-say" className="anchor-link">What Clients Say</AnchorLink>
+          <AnchorLink href="#pricing" className="anchor-link">
+            Pricing
+          </AnchorLink>
         </li>
         <li>
-          <AnchorLink href="#gallery" className="anchor-link">Gallery</AnchorLink>
+          <AnchorLink href="#what-clients-say" className="anchor-link">
+            What Clients Say
+          </AnchorLink>
         </li>
         <li>
-          <AnchorLink href="#contacts" className="anchor-link">Contacts</AnchorLink>
+          <AnchorLink href="#contact" className="anchor-link">
+            Contact
+          </AnchorLink>
         </li>
       </ul>
     </nav>

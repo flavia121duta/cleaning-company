@@ -1,0 +1,27 @@
+.clients-parallax {
+    /* The image used */
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/cleaning-company-f9b3e.appspot.com/o/shower_head.jpg?alt=media&token=c7f80aab-35fe-41e2-ac2e-f3a9a8250f6b");
+    background-color: grey;
+    background-blend-mode: multiply;
+  
+    /* Set a specific height */
+    min-height: 30vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+  }
+
+@media (max-width: 765px) {
+    .clients-parallax {
+        flex-direction: column;
+        padding: 2rem;
+    }
+}

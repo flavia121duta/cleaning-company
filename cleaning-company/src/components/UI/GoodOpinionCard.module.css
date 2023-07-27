@@ -1,0 +1,21 @@
+.opinion-card {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin: 1rem;
+}
+
+.opinion-card h2 {
+  margin: 0;
+}
+
+.opinion-icon {
+  font-size: 42px;
+}
+
+.opinion-icon:hover {
+  color: #0eb2e7;
+}
+

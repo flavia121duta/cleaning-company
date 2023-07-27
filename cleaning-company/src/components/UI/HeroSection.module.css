@@ -1,0 +1,28 @@
+hero-container {
+  height: 100%;
+  margin: 0;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://firebasestorage.googleapis.com/v0/b/cleaning-company-f9b3e.appspot.com/o/top-slider-1.png?alt=media&token=648964bd-650a-41c5-8b38-362ae52cea43");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 50%;
+}
+
+.hero-text p {
+    text-align: right;
+}

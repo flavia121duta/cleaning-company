@@ -1,9 +1,14 @@
 .container {
   display: flex;
+  /* height: 100vh; */
 }
 
 .about-us {
-  padding: 3rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
 }
 
 .container-of-four {
@@ -12,7 +17,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 
-  margin: 5rem;
+  margin: 3rem;
 }
 
 @media (max-width: 1365px) {
@@ -21,4 +26,23 @@
         flex-direction: column;
         margin: 1rem;
     }
+
+    .about-us {
+      padding: 3rem;
+    }
+}
+
+@media (max-width: 1000px) {
+  .man-cleaning {
+    display: none;
+  }
+
+  .about-us {
+    width: 100%;
+  }
+}
+
+.man-cleaning {
+  width: 50%;
+  overflow: hidden;
 }
