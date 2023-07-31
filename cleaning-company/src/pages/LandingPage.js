@@ -7,13 +7,15 @@ import ParallaxAboutClients from "../components/UI/ParallaxAboutClients";
 import Footer from "../components/UI/Footer";
 
 export default function LandingPage() {
-    return <div>
-        <Home />
-        <AboutUs />
-        <Services />
-        <Payment />
-        <ParallaxAboutClients />
-        <WhatClientsSay />
-        <Footer />
+  return (
+    <div>
+      <Home />
+      <AboutUs />
+      <Services />
+      <Payment />
+      <ParallaxAboutClients />
+      <WhatClientsSay />
+      <Footer />
     </div>
+  );
 }

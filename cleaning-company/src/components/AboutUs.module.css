@@ -1,6 +1,5 @@
 .container {
   display: flex;
-  /* height: 100vh; */
 }
 
 .about-us {
@@ -9,15 +8,23 @@
   flex-direction: column;
   align-items: center;
   padding: 5rem;
+  
+  background-color: white;
 }
 
 .container-of-four {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  gap: 3rem;
 
-  margin: 3rem;
+  margin: 1rem;
+}
+
+.man-cleaning {
+  height: auto;
+  max-width: 50%;
+  overflow: hidden;
 }
 
 @media (max-width: 1365px) {
@@ -42,7 +49,3 @@
   }
 }
 
-.man-cleaning {
-  width: 50%;
-  overflow: hidden;
-}

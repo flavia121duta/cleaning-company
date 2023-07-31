@@ -2,7 +2,7 @@
   position: fixed;
   width: 100%;
   z-index: 2;
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 
 .navigation-header:hover {
@@ -12,7 +12,7 @@
 .navigation {
   background-color: #323232;
   color: white;
-  height: 10rem;
+  /* height: 10rem; */
   display: flex;
   font-weight: 900;
   padding: 1rem;
@@ -27,6 +27,10 @@
   margin: 0;
   padding: 0;
   width: 100%;
+}
+
+.logo img {
+  width: 5rem;
 }
 
 @media (max-width: 1000px) {
@@ -45,10 +49,6 @@
     font-size: 32px;
   }
 
-  .mobile-logo {
-    height: 100%;
-  }
-
   .hidden-menu {
     list-style-type: none;
     display: flex;
@@ -57,3 +57,4 @@
     gap: 1rem;
   }
 }
+

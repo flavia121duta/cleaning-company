@@ -8,8 +8,8 @@ export default function PaymentCard(props) {
         props.addSpecialClass && classes.specialClass
       }`}
       id={props.id}
-      onMouseOverCapture={props.onMouseOverCapture}
-      onMouseOut={props.onMouseOut}
+      onMouseEnter={ props.onMouseEnter}
+      onMouseLeave={ props.onMouseLeave}
     >
       <div className={`${classes["price-title"]}`}>99 €</div>
       <div className={`${classes["type-of-cleaning"]}`}>Regular Cleaning</div>

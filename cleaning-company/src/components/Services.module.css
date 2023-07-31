@@ -1,9 +1,6 @@
 .parallax {
   /* The image used */
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/cleaning-company-f9b3e.appspot.com/o/woman_cleaning_the_floor.jpg?alt=media&token=e2ba0ef1-3d38-4600-a02c-3791d0c40bac");
-  /* filter: brightness(30%); */
-  background-color: grey;
-  background-blend-mode: multiply;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/cleaning-company-f9b3e.appspot.com/o/woman_cleaning_the_floor.png?alt=media&token=864a0b93-5cd2-49af-9eac-531754e924e2");
 
   /* Set a specific height */
   min-height: 100vh;
@@ -25,10 +22,19 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  width: 80%;
+  /* width: 80%; */
+  width: max-content;
+  grid-gap: 1px;
+  margin: 3rem auto;
 }
 
-@media (min-width:765px) and (max-width: 1000px) {
+.our-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 765px) and (max-width: 1000px) {
   .services-contaier {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -42,8 +48,34 @@
   }
 }
 
-.text {
+.title-style {
+  color: white;
+}
+
+.text-style {
   width: 50%;
   text-align: center;
 }
 
+.horizontal-line {
+  opacity: 1;
+  border: 0;
+  clear: both;
+  display: block;
+  width: 40px;
+  background-color: #0eb2e7;
+  height: 3px;
+}
+
+.first-card, .second-card {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.third-card {
+  border-bottom: 1px solid white;
+}
+
+.fourth-card, .fifth-card {
+  border-right: 1px solid white;
+}

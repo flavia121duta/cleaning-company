@@ -1,18 +1,16 @@
 import Testimonial from "./UI/Testimonial";
+import BeginOfSection from "./UI/BeginOfSection";
 import classes from "./Payment.module.css";
 
 export default function WhatClientsSay() {
   return (
-    <div id="what-clients-say" className={`${classes["pricing-content"]}`}>
-      <h2 className={`${classes["payment-title"]}`}>What Clients Say</h2>
-      <hr className={classes.hr} />
-      <p>
-        Picanha spare ribs pariatur velit pork sirloin. Consequat capicola
-        pastrami non, minim ribeye meatloaf consectetur pork loin ground round
-        bacon quis t-bone labore.
-      </p>
+    <section id="what-clients-say" className={`${classes["pricing-content"]}`}>
+      <BeginOfSection
+        title="What Clients Say"
+        text="At Pretty Press we take immense pride in delivering exceptional cleaning services to our valued clients. But don't just take our word for it! Read what some of our satisfied customers have to say about their experience with us."
+      />
 
       <Testimonial />
-    </div>
+    </section>
   );
 }

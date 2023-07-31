@@ -1,17 +1,13 @@
 .service-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;    
-    padding: 1rem;
-    text-align: center;
-}
-
-.service-img {
-    height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
 }
 
 .service-card:hover {
-    background-color: rgba(255, 255, 255, 0.15);
-    border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.15);
+  box-sizing: border-box;
 }
