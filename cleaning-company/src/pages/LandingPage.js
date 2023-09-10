@@ -1,4 +1,4 @@
-import Home from "../components/Home";
+import HeroSection from "../components/UI/HeroSection";
 import AboutUs from "../components/AboutUs";
 import Services from "../components/Services";
 import Payment from "../components/Payment";
@@ -8,14 +8,14 @@ import Footer from "../components/UI/Footer";
 
 export default function LandingPage() {
   return (
-    <div>
-      <Home />
+    <>
+      <HeroSection />
       <AboutUs />
       <Services />
       <Payment />
       <ParallaxAboutClients />
       <WhatClientsSay />
       <Footer />
-    </div>
+    </>
   );
 }

@@ -1,6 +1,7 @@
 import classes from "./Footer.module.css";
 import useScreenSize from "../hooks/useScreenSize";
 import { useState } from "react";
+import { useTranslation } from 'react-i18next';
 
 export default function Footer() {
   const currentDate = new Date();
@@ -18,6 +19,8 @@ export default function Footer() {
     setScheduleIsVisible((prev) => !prev);
   };
 
+  const { t } = useTranslation();
+
   return (
     <footer id="contact">
       <div className={classes.footer}>
@@ -26,7 +29,7 @@ export default function Footer() {
             className={classes.hideInfoSection}
             onClick={hideContactInfoHandler}
           >
-            <h2>Contact Info</h2>
+            <h2>{t("footer.contact-info")}</h2>
             {screenSize === "mobile" && (
               <div className={classes.chevron}>
                 {contactInfoIsVisible ? (
@@ -58,7 +61,7 @@ export default function Footer() {
             className={classes.hideInfoSection}
             onClick={hideScheduleHandler}
           >
-            <h2>Opening Hours</h2>
+            <h2>{t("footer.opening-hours.title")}</h2>
             {screenSize === "mobile" && (
               <div className={classes.chevron}>
                 {scheduleIsVisible ? (
@@ -72,12 +75,12 @@ export default function Footer() {
           <hr />
           {(screenSize !== "mobile" || !scheduleIsVisible) && (
             <div className={classes.schedule}>
-              <div>Mon - Thu</div>
+              <div>{t("footer.opening-hours.mon-thu")}</div>
               <div>09:00 - 17:00</div>
-              <div>Fri - Sat</div>
+              <div>{t("footer.opening-hours.fri-sat")}</div>
               <div>09:00 - 17:00</div>
-              <div>Sunday</div>
-              <div>Closed</div>
+              <div>{t("footer.opening-hours.sunday")}</div>
+              <div>{t("footer.opening-hours.closed")}</div>
             </div>
           )}
         </div>

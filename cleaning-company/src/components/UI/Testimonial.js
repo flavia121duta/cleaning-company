@@ -77,7 +77,7 @@ export default function Testimonial() {
       onDragStart={handleDragStart}
       src={opinion.profile_picture}
       opinion={opinion.opinion}
-      clientName={opinion.clientName}
+      clientName={opinion.name}
       role="presentation"
     />
   ));

@@ -1,11 +1,11 @@
 .testimonial-card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  height: fit-content;
   padding: 10px;
 }
+
 .avatar {
   border-radius: 50%;
   height: 80px;
@@ -13,5 +13,14 @@
 }
 
 .avatar:hover {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   border: 3px solid #0eb2e7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.opinion {
+  text-align: center;
+  font-style: italic;
 }

@@ -2,16 +2,18 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Source Sans 3", sans-serif;
-  scroll-margin-top: 10rem;
+  scroll-behavior: smooth;
 }
 
 .anchor-link {
-  color: white;
+  color: #323232 !important;
   text-decoration: none; /* no underline */
 }
 
-#about-us, #services, #pricing, #what-clients-say {
-  padding-top: 10rem;
-  margin-top: -10rem;
+#about-us,
+#services,
+#pricing,
+#what-clients-say {
+  padding-top: 6rem;
+  margin-top: -6rem;
 }
-

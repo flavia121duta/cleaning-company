@@ -44,7 +44,7 @@
 }
 
 .specialClass {
-  background: url("https://firebasestorage.googleapis.com/v0/b/cleaning-company-f9b3e.appspot.com/o/blue-cleaning-hand.png?alt=media&token=42201586-693d-4a4f-a1e3-541d9bf630a1");
+  background: url("https://firebasestorage.googleapis.com/v0/b/cleaning-company-f9b3e.appspot.com/o/blue-cleaning-hand.png?alt=media&token=6d0049a8-a816-4931-a382-7ca959526a85");
   background-position: center;
   background-blend-mode: overlay;
 
@@ -52,4 +52,3 @@
   color: white;
   transform: scale(1.2);
 }
-

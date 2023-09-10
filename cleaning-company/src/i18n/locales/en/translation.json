@@ -1,0 +1,130 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about-us": "About Us",
+    "services": "Services",
+    "pricing": "Pricing",
+    "what-clients-say": "What Clients Say",
+    "contact": "Contact",
+    "menu": "Menu"
+  },
+
+  "hero-section": {
+    "h1": "We can make your place sparkle",
+    "p": "Professional. Affordable. Reliable."
+  },
+
+  "about-us": {
+    "title": "About Us",
+    "text": "We are your trusted partner for exceptional cleaning services. We leave no dust behind, making your space shine like never before. Our dedicated team is committed to delivering the highest standards of cleanliness, reliability, and customer satisfaction.",
+    "options": {
+      "opened": {
+        "title": "24/7 Opened",
+        "text": "We work hard so you don't have to."
+      },
+      "prices": {
+        "title": "Fair Prices",
+        "text": "Fair-priced cleaning services for spotless results you'll love."
+      },
+      "staff": {
+        "title": "Professional Staff",
+        "text": "We are professional and experienced cleaning staff."
+      },
+      "certification": {
+        "title": "Certification",
+        "text": "Cleaners certified & highly experienced professionals."
+      }
+    }
+  },
+
+  "services": {
+    "title": "Our Services",
+    "text": "Our professional and experienced cleaning staff does the job right the first time, giving you confidence that you office and building will always look their best.",
+    "options": {
+      "home-cleaning": {
+        "title": "Home Cleaning",
+        "text": "Revolutionary cleaning with powerful vacuum technology!"
+      },
+      "washing-up": {
+        "title": "Washing Up",
+        "text": "Spotless dishes, sparkling kitchen – we wash, you relax!"
+      },
+      "cloth-ironing": {
+        "title": "Cloth Ironing",
+        "text": "Flawless fabrics, pressed to perfection."
+      },
+      "window-cleaning": {
+        "title": "Window Cleaning",
+        "text": "Crystal-clear views, one streak at a time."
+      },
+      "Washing Clothes": {
+        "title": "Window Cleaning",
+        "text": "Crystal-clear views, one streak at a time."
+      },
+      "scavenge": {
+        "title": "Scavenge",
+        "text": "From mess to pristine, we handle your trash with care."
+      }
+    }
+  },
+
+  "pricing": {
+    "title": "Pricing Tables",
+    "text": "Picanha spare ribs pariatur velit pork sirloin. Consequat capicola pastrami non, minim ribeye meatloaf consectetur pork loin ground round bacon quis t-bone labore.",
+    "options": {
+      "regular-cleaning": {
+        "title": "Regular Cleaning",
+        "price": "90€/day",
+        "places": {
+          "living-room": "Living Room",
+          "common-areas": "Common Areas",
+          "kitchen": "Kitchen",
+          "dining-room": "Dining Room"
+        }
+      },
+      "green-cleaning": {
+        "title": "Green Cleaning",
+        "price": "149€/day",
+        "places": {
+          "living-room": "Living Room",
+          "common-areas": "Common Areas",
+          "kitchen": "Kitchen",
+          "dining-room": "Dining Room"
+        }
+      },
+      "deep-cleaning": {
+        "title": "Deep Cleaning",
+        "price": "199€/day",
+        "places": {
+          "living-room": "Living Room",
+          "common-areas": "Common Areas",
+          "kitchen": "Kitchen",
+          "dining-room": "Dining Room"
+        }
+      }
+    }
+  },
+
+  "parallax-about-clients": {
+    "projects-done": "Projects Done",
+    "happy-clients": "Happy Clients",
+    "experience": "Years of Experience",
+    "people-working": "People Working"
+  },
+
+  "what-clients-say": {
+    "title": "What Clients Say",
+    "text": "At Pretty Press we take immense pride in delivering exceptional cleaning services to our valued clients. But don't just take our word for it! Read what some of our satisfied customers have to say about their experience with us."
+  },
+
+  "footer": {
+    "contact-info": "Contact Info",
+    "opening-hours": {
+        "title": "Opening Hours",
+        "mon-thu": "Mon-Thu",
+        "fri-sat": "Fri-Sat",
+        "sunday": "Sunday",
+        "closed": "Closed"
+    }
+  }
+}

@@ -1,6 +1,7 @@
 .hero-container {
   height: 100%;
   margin: 0;
+  margin-top: -6rem;
 }
 
 .hero-image {
@@ -27,16 +28,11 @@
 }
 
 .hero-text p {
-    text-align: right;
-    width: 100%;
-    font-size: 18px;
+  text-align: right;
+  width: 100%;
+  font-size: 18px;
 }
 
 .text-shadow {
-  text-shadow:
-        0.07em 0 black,
-        0 0.07em black,
-        -0.07em 0 black,
-        0 -0.07em black;
+  text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
 }
-

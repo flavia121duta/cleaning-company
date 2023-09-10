@@ -1,6 +1,5 @@
 import classes from "./PaymentCard.module.css";
 
-// TODO: add props
 export default function PaymentCard(props) {
   return (
     <div
@@ -8,16 +7,15 @@ export default function PaymentCard(props) {
         props.addSpecialClass && classes.specialClass
       }`}
       id={props.id}
-      onMouseEnter={ props.onMouseEnter}
-      onMouseLeave={ props.onMouseLeave}
+      onMouseEnter={props.onMouseEnter}
+      onMouseLeave={props.onMouseLeave}
     >
-      <div className={`${classes["price-title"]}`}>99 €</div>
-      <div className={`${classes["type-of-cleaning"]}`}>Regular Cleaning</div>
+      <div className={`${classes["price-title"]}`}>{props.price}</div>
+      <div className={`${classes["type-of-cleaning"]}`}>{props.title}</div>
       <ul className={`${classes["cleaning-list"]}`}>
-        <li>Living room</li>
-        <li>Common areas</li>
-        <li>Kitchen</li>
-        <li>Dining room</li>
+        {props.roomsList.map((room) => (
+          <li>{room}</li>
+        ))} 
       </ul>
     </div>
   );

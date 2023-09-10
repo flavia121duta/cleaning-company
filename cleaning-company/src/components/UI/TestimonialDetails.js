@@ -11,9 +11,7 @@ export default function TestimonialDetails(props) {
         alt="avatar of the user"
         className={classes.avatar}
       />
-      <p>
-        {props.opinion}
-      </p>
+      <p className={classes.opinion}>{props.opinion}</p>
       <h3>{props.clientName}</h3>
     </div>
   );

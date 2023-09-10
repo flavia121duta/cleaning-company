@@ -1,0 +1,18 @@
+.mobile-navigation {
+  width: 100vw;
+}
+
+.mobile-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.mobile-menu i {
+  font-size: 32px;
+}
+
+.mobile-logo {
+  width: 7rem;
+}

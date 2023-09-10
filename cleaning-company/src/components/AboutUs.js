@@ -3,8 +3,11 @@ import useScreenSize from "./hooks/useScreenSize";
 import BeginOfSection from "../components/UI/BeginOfSection";
 import Card from "./UI/Card";
 
+import { useTranslation } from 'react-i18next'
+
 export default function AboutUs() {
   const screenSize = useScreenSize(true);
+  const { t } = useTranslation();
 
   return (
     <section id="about-us" className={classes.container}>
@@ -18,30 +21,30 @@ export default function AboutUs() {
 
       <main className={`${classes["about-us"]}`}>
         <BeginOfSection
-          title="About Us"
-          text="We are your trusted partner for exceptional cleaning services. We leave no dust behind, making your space shine like never before. Our dedicated team is committed to delivering the highest standards of cleanliness, reliability, and customer satisfaction."
+          title={t("about-us.title")}
+          text={t("about-us.text")}
         />
 
         <div className={`${classes["container-of-four"]}`}>
           <Card
             icon="fa-regular fa-clock"
-            title="24/7 Opened"
-            text="We work hard so you don’t have to."
+            title={t("about-us.options.opened.title")}
+            text={t("about-us.options.opened.text")}
           />
           <Card
             icon="fa-solid fa-people-group"
-            title="Professional Staff"
-            text="We are professional and experienced cleaning staff."
+            title={t("about-us.options.staff.title")}
+            text={t("about-us.options.staff.text")}
           />
           <Card
             icon="fa-regular fa-thumbs-up"
-            title="Fair Prices"
-            text="Fair-priced cleaning services for spotless results you'll love."
+            title={t("about-us.options.prices.title")}
+            text={t("about-us.options.prices.text")}
           />
           <Card
             icon="fa-solid fa-award"
-            title="Certification"
-            text="Cleaners certified & highly experienced professionals."
+            title={t("about-us.options.certification.title")}
+            text={t("about-us.options.certification.text")}
           />
         </div>
       </main>
