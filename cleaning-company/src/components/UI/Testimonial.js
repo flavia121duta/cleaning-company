@@ -22,6 +22,8 @@ export default function Testimonial() {
   const [isLoading, setIsLoading] = useState(true);
   const [httpError, setHttpError] = useState();
 
+  const selectedLanguage = localStorage.getItem("language");
+
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
@@ -36,10 +38,25 @@ export default function Testimonial() {
 
       const loadedData = [];
       for (const key in responseData) {
+        let opinionTranslated;
+        switch (selectedLanguage) {
+          case "DE":
+            opinionTranslated = responseData[key]["opinion-de"];
+            break;
+          case "GB":
+            opinionTranslated = responseData[key].opinion;
+            break;
+          case "RO":
+            opinionTranslated = responseData[key]["opinion-ro"];
+            break;
+          default:
+            opinionTranslated = responseData[key]["opinion-de"];
+        }
+
         loadedData.push({
           id: key,
           name: responseData[key].name,
-          opinion: responseData[key].opinion,
+          opinion: opinionTranslated,
           profile_picture: responseData[key]["profile-picture"],
         });
       }
@@ -54,7 +71,7 @@ export default function Testimonial() {
         setIsLoading(false);
         setHttpError(error.message);
       });
-  }, []);
+  }, [selectedLanguage]);
 
   if (isLoading) {
     return (

@@ -1,130 +1,130 @@
 {
   "navigation": {
-    "home": "Heim",
-    "about-us": "About Us",
-    "services": "Services",
-    "pricing": "Pricing",
-    "what-clients-say": "What Clients Say",
-    "contact": "Contact",
-    "menu": "Menu"
+    "home": "Zuhause",
+    "about-us": "Über uns",
+    "services": "Dienstleistungen",
+    "pricing": "Preise",
+    "what-clients-say": "Was Kunden sagen",
+    "contact": "Kontakt",
+    "menu": "Menü"
   },
 
   "hero-section": {
-    "h1": "We can make your place sparkle",
-    "p": "Professional. Affordable. Reliable."
+    "h1": "Wir können Ihren Ort zum Glänzen bringen!",
+    "p": "Professionell. Erschwinglich. Zuverlässig."
   },
 
   "about-us": {
-    "title": "About Us",
-    "text": "We are your trusted partner for exceptional cleaning services. We leave no dust behind, making your space shine like never before. Our dedicated team is committed to delivering the highest standards of cleanliness, reliability, and customer satisfaction.",
+    "title": "Über uns",
+    "text": "Wir sind Ihr vertrauenswürdiger Partner für außergewöhnliche Reinigungsdienste. Wir lassen keinen Staub zurück und lassen Ihren Raum so strahlen wie nie zuvor. Unser engagiertes Team verpflichtet sich zu höchsten Standards in Sauberkeit, Zuverlässigkeit und Kundenzufriedenheit.",
     "options": {
       "opened": {
-        "title": "24/7 Opened",
-        "text": "We work hard so you don't have to."
+        "title": "24/7 Geöffnet",
+        "text": "Wir arbeiten hart, damit Sie es nicht müssen."
       },
       "prices": {
-        "title": "Fair Prices",
-        "text": "Fair-priced cleaning services for spotless results you'll love."
+        "title": "Angemessene Preise",
+        "text": "Fair bepreiste Reinigungsdienste für makellose Ergebnisse, die Ihnen gefallen werden."
       },
       "staff": {
-        "title": "Professional Staff",
-        "text": "We are professional and experienced cleaning staff."
+        "title": "Fachkundiges Personal",
+        "text": "Wir sind professionelles und erfahrenes Reinigungspersonal."
       },
       "certification": {
-        "title": "Certification",
-        "text": "Cleaners certified & highly experienced professionals."
+        "title": "Zertifizierung",
+        "text": "Reinigungskräfte zertifizierte und hoch erfahrene Fachleute."
       }
     }
   },
 
   "services": {
-    "title": "Our Services",
-    "text": "Our professional and experienced cleaning staff does the job right the first time, giving you confidence that you office and building will always look their best.",
+    "title": "Unsere Dienstleistungen",
+    "text": "Unser professionelles und erfahrenes Reinigungspersonal erledigt die Arbeit gleich beim ersten Mal richtig, sodass Sie Vertrauen haben können, dass Ihr Büro und Gebäude immer in bestem Zustand sein werden.",
     "options": {
       "home-cleaning": {
-        "title": "Home Cleaning",
-        "text": "Revolutionary cleaning with powerful vacuum technology!"
+        "title": "Haushaltsreinigung",
+        "text": "Revolutionäre Reinigung mit leistungsstarker Staubsaugertechnologie!"
       },
       "washing-up": {
-        "title": "Washing Up",
-        "text": "Spotless dishes, sparkling kitchen – we wash, you relax!"
+        "title": "Schmutziges Geschirr abwaschen",
+        "text": "Makelloses Geschirr, strahlende Küche - wir waschen, Sie entspannen sich!"
       },
       "cloth-ironing": {
-        "title": "Cloth Ironing",
-        "text": "Flawless fabrics, pressed to perfection."
+        "title": "Bügeln von Kleidung",
+        "text": "Makellose Stoffe, perfekt gebügelt."
       },
       "window-cleaning": {
-        "title": "Window Cleaning",
-        "text": "Crystal-clear views, one streak at a time."
+        "title": "Fensterreinigung",
+        "text": "Kristallklare Aussichten, Streifen für Streifen."
       },
-      "Washing Clothes": {
-        "title": "Window Cleaning",
-        "text": "Crystal-clear views, one streak at a time."
+      "washing-clothes": {
+        "title": "Kleidung waschen",
+        "text": "Erleben Sie Frische mit unseren professionellen Wäschediensten heute!"
       },
       "scavenge": {
-        "title": "Scavenge",
-        "text": "From mess to pristine, we handle your trash with care."
+        "title": "Recyceln",
+        "text": "Von Unordnung zur makellosen Sauberkeit – wir kümmern uns sorgfältig um Ihren Müll."
       }
     }
   },
 
   "pricing": {
-    "title": "Pricing Tables",
+    "title": "Preistabellen",
     "text": "Picanha spare ribs pariatur velit pork sirloin. Consequat capicola pastrami non, minim ribeye meatloaf consectetur pork loin ground round bacon quis t-bone labore.",
     "options": {
       "regular-cleaning": {
-        "title": "Regular Cleaning",
-        "price": "90€/day",
+        "title": "Regelmäßige Reinigung",
+        "price": "90€/Tag",
         "places": {
-          "living-room": "Living Room",
-          "common-areas": "Common Areas",
-          "kitchen": "Kitchen",
-          "dining-room": "Dining Room"
+          "living-room": "Wohnzimmer",
+          "common-areas": "Gemeinschaftsbereiche",
+          "kitchen": "Küche",
+          "dining-room": "Esszimmer"
         }
       },
       "green-cleaning": {
-        "title": "Green Cleaning",
-        "price": "149€/day",
+        "title": "Umweltfreundliche Reinigung",
+        "price": "149€/Tag",
         "places": {
-          "living-room": "Living Room",
-          "common-areas": "Common Areas",
-          "kitchen": "Kitchen",
-          "dining-room": "Dining Room"
+          "living-room": "Wohnzimmer",
+          "common-areas": "Gemeinschaftsbereiche",
+          "kitchen": "Küche",
+          "dining-room": "Esszimmer"
         }
       },
       "deep-cleaning": {
-        "title": "Deep Cleaning",
-        "price": "199€/day",
+        "title": "Tiefenreinigung",
+        "price": "199€/Tag",
         "places": {
-          "living-room": "Living Room",
-          "common-areas": "Common Areas",
-          "kitchen": "Kitchen",
-          "dining-room": "Dining Room"
+          "living-room": "Wohnzimmer",
+          "common-areas": "Gemeinschaftsbereiche",
+          "kitchen": "Küche",
+          "dining-room": "Esszimmer"
         }
       }
     }
   },
 
   "parallax-about-clients": {
-    "projects-done": "Projects Done",
-    "happy-clients": "Happy Clients",
-    "experience": "Years of Experience",
-    "people-working": "People Working"
+    "projects-done": "Abgeschlossene Projekte",
+    "happy-clients": "Zufriedene Kunden",
+    "experience": "Jahre an Erfahrung",
+    "people-working": "Menschen arbeiten"
   },
 
   "what-clients-say": {
-    "title": "What Clients Say",
-    "text": "At Pretty Press we take immense pride in delivering exceptional cleaning services to our valued clients. But don't just take our word for it! Read what some of our satisfied customers have to say about their experience with us."
+    "title": "Was Kunden sagen",
+    "text": "Bei Pretty Press sind wir sehr stolz darauf, außergewöhnliche Reinigungsdienstleistungen an unsere geschätzten Kunden zu liefern. Aber verlassen Sie sich nicht nur auf unser Wort! Lesen Sie, was einige unserer zufriedenen Kunden über ihre Erfahrung mit uns zu sagen haben."
   },
 
   "footer": {
-    "contact-info": "Contact Info",
+    "contact-info": "Kontaktinformationen",
     "opening-hours": {
-      "title": "Opening Hours",
-      "mon-thu": "Mon-Thu",
-      "fri-sat": "Fri-Sat",
-      "sunday": "Sunday",
-      "closed": "Closed"
+      "title": "Öffnungszeiten",
+      "mon-thu": "Montag-Donnerstag",
+      "fri-sat": "Freitag-Samstag",
+      "sunday": "Sonntag",
+      "closed": "Geschlossen"
     }
   }
 }

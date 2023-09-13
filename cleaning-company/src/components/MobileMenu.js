@@ -2,7 +2,6 @@ import { useState } from "react";
 import MobileMenuModal from "./UI/MobileMenuModal.js";
 import classes from "./MobileNavigation.module.css";
 import logo from "../assets/Logo.svg";
-import LanguageSelector from "./LanguageSelector.js";
 
 export default function MobileNavigation() {
   const [mobileMenuIsVisible, setMobileMenuIsVisible] = useState(false);
@@ -21,9 +20,8 @@ export default function MobileNavigation() {
         <img
           className={`${classes["mobile-logo"]}`}
           src={logo}
-          alt="broom and bubbles"
+          alt="Double R"
         />
-        <LanguageSelector />
         <i onClick={showMobileMenuHandler} className="fa-solid fa-bars"></i>
       </div>
       {mobileMenuIsVisible && <MobileMenuModal onConfirm={modalHandler} />}

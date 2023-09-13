@@ -1,6 +1,5 @@
 import classes from "./DesktopMenu.module.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import LanguageSelector from "./LanguageSelector";
 import { useTranslation } from "react-i18next";
 import logo from "../assets/Logo.svg";
 
@@ -45,9 +44,6 @@ export default function DesktopMenu() {
           <AnchorLink href="#contact" className="anchor-link">
             {t("navigation.contact")}
           </AnchorLink>
-        </li>
-        <li>
-          <LanguageSelector />
         </li>
       </ul>
     </nav>

@@ -10,7 +10,7 @@
     },
   
     "hero-section": {
-      "h1": "Facem ca locuinţa dumneavoastră să strălucească",
+      "h1": "Facem ca locuinţa dumneavoastră să strălucească!",
       "p": "Profesional. Accesibil. De încredere."
     },
   
@@ -46,7 +46,7 @@
           "text": "Curățare revoluționară cu tehnologie puternică de aspirare!"
         },
         "washing-up": {
-          "title": "Spălare",
+          "title": "Spălare de Vase Murdare",
           "text": "Vase impecabile, bucătărie strălucitoare - noi facem curat în timp ce dumneavoastră vă relaxaţi"
         },
         "cloth-ironing": {
@@ -54,12 +54,12 @@
           "text": "Țesături impecabile, presate până la perfecțiune."
         },
         "window-cleaning": {
-          "title": "Curăţarea Geamurilor",
-          "text": "Crystal-clear views, one streak at a time."
-        },
-        "washing-clothes": {
           "title": "Geamuri Curate",
           "text": "Geamuri curate ca de cristal pentru o privelişte impecabilă."
+        },
+        "washing-clothes": {
+          "title": "Spălare de Haine",
+          "text":  "Experimentați prospețimea cu serviciile noastre de spălătorie de experți chiar de astăzi!"
         },
         "scavenge": {
           "title": "Reciclare",
@@ -121,9 +121,9 @@
       "contact-info": "Informaţii de Contact",
       "opening-hours": {
           "title": "Program",
-          "mon-thu": "Lu-Joi",
-          "fri-sat": "Vin-Sâm",
-          "sunday": "Dum",
+          "mon-thu": "Luni-Joi",
+          "fri-sat": "Vineri-Sâmătă",
+          "sunday": "Duminică",
           "closed": "Închis"
       }
     }

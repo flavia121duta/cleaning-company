@@ -10,7 +10,7 @@
   },
 
   "hero-section": {
-    "h1": "We can make your place sparkle",
+    "h1": "We can make your place sparkle!",
     "p": "Professional. Affordable. Reliable."
   },
 
@@ -46,7 +46,7 @@
         "text": "Revolutionary cleaning with powerful vacuum technology!"
       },
       "washing-up": {
-        "title": "Washing Up",
+        "title": "Washing Dirty Dishes",
         "text": "Spotless dishes, sparkling kitchen – we wash, you relax!"
       },
       "cloth-ironing": {
@@ -57,12 +57,12 @@
         "title": "Window Cleaning",
         "text": "Crystal-clear views, one streak at a time."
       },
-      "Washing Clothes": {
-        "title": "Window Cleaning",
-        "text": "Crystal-clear views, one streak at a time."
+      "washing-clothes": {
+        "title": "Washing Clothes",
+        "text": "Experience freshness with our expert laundry services today!"
       },
       "scavenge": {
-        "title": "Scavenge",
+        "title": "Recycling",
         "text": "From mess to pristine, we handle your trash with care."
       }
     }

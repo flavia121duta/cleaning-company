@@ -1,8 +1,7 @@
-.navigation {  
+.navigation {
   display: flex;
   font-weight: 900;
   padding: 1rem;
-  transition: top 0.3s;
 }
 
 .menu-options {
@@ -18,3 +17,5 @@
 .logo img {
   width: 7rem;
 }
+
+

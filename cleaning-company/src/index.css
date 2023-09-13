@@ -6,14 +6,28 @@ body {
 }
 
 .anchor-link {
-  color: #323232 !important;
+  color: #323232;
   text-decoration: none; /* no underline */
+}
+
+.anchor-link:hover {
+  color: white;
+}
+
+.anchor-link:focus {
+  text-decoration: underline;
 }
 
 #about-us,
 #services,
 #pricing,
 #what-clients-say {
-  padding-top: 6rem;
-  margin-top: -6rem;
+  padding-top: 9rem;
+  margin-top: -9rem;
+}
+
+:target {
+  border: 2px solid #d4d4d4;
+  background-color: orange;
+  color: white;
 }

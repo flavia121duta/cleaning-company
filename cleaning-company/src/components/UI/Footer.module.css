@@ -2,6 +2,9 @@ footer {
   background-color: #313130;
   color: white;
   margin-bottom: 1rem;
+  width: 100%;
+
+  margin-top: auto;
 }
 
 .footer {
@@ -37,17 +40,21 @@ footer {
   font-weight: bold;
 }
 
-.email i,
-.telephone i {
+.email a,
+.telephone a {
+  text-decoration: "none"; 
   color: #0eb2e7;
 }
 
-.telephone span {
+.telephone a {
   font-weight: bold;
 }
 
 .copyright {
   text-align: center;
+  background-color: white;
+  color: #313130;
+  margin-bottom: 1rem;
 }
 
 .hideInfoSection {
@@ -59,13 +66,11 @@ footer {
 @media (max-width: 765px) {
   .footer {
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0;
+    align-items: center;
+    padding: 1rem 0;
   }
 
   .contact-info {
-    margin: 3rem;
     width: 80%;
   }
 }

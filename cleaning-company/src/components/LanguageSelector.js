@@ -3,7 +3,8 @@ import i18n from "../i18n";
 import ReactFlagsSelect from "react-flags-select";
 
 const LanguageSelector = () => {
-  const [selectedLanguage, setSelectedLanguage] = useState(i18n.language);
+  const [selectedLanguage, setSelectedLanguage] = useState("de");
+  localStorage.setItem("language", selectedLanguage);
 
   const chooseLanguage = (e) => {
     switch (e) {
@@ -11,7 +12,7 @@ const LanguageSelector = () => {
         i18n.changeLanguage("de");
         break;
       case "GB":
-        i18n.changeLanguage("EN");
+        i18n.changeLanguage("en");
         break;
       case "RO":
         i18n.changeLanguage("ro");
@@ -21,16 +22,17 @@ const LanguageSelector = () => {
     }
 
     setSelectedLanguage(e);
+    localStorage.setItem("language", e);
   };
 
   return (
-    <ReactFlagsSelect
-      countries={["DE", "GB", "RO"]}
-      customLabels={{ DE: "Deutsch", GB: "English", RO: "Română" }}
-      placeholder="Select Language"
-      selected={selectedLanguage}
-      onSelect={chooseLanguage}
-    />
+      <ReactFlagsSelect
+        countries={["DE", "GB", "RO"]}
+        customLabels={{ DE: "Deutsch", GB: "English", RO: "Română" }}
+        placeholder="Select Language"
+        selected={selectedLanguage}
+        onSelect={chooseLanguage}
+      />
   );
 };
 
