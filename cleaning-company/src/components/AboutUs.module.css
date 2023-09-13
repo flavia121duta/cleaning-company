@@ -1,13 +1,13 @@
-.container {
+.about-us-container {
   display: flex;
 }
 
 .about-us {
-  width: 50%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5rem;
+  /* padding: 5rem; */
   
   background-color: white;
 }
@@ -18,7 +18,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
 
-  margin: 1rem;
+  /* margin: 1rem; */
 }
 
 .man-cleaning {
@@ -31,21 +31,13 @@
     .container-of-four {
         display: flex;
         flex-direction: column;
-        margin: 1rem;
-    }
-
-    .about-us {
-      padding: 3rem;
+        /* margin: 1rem; */
     }
 }
 
 @media (max-width: 1000px) {
   .man-cleaning {
     display: none;
-  }
-
-  .about-us {
-    width: 100%;
   }
 }
 

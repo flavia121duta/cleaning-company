@@ -1,20 +1,13 @@
 import classes from "./Services.module.css";
 import CleaningCard from "./UI/CleaningCard";
+import SectionWrapper from "./UI/SectionWrapper";
 import { useTranslation } from 'react-i18next'
 
 export default function Services() {
   const { t } = useTranslation();
 
   return (
-    <section id="services" className={classes.parallax}>
-      <div className={`${classes["our-services"]}`}>
-        <h2 className={`${classes["title-style"]}`}>{t("services.title")}</h2>
-        <hr className={`${classes["horizontal-line"]}`} />
-        <p className={`${classes["text-style"]}`}>
-        {t("services.text")}
-        </p>
-      </div>
-
+    <SectionWrapper id="services" className={classes.parallax} title={t("services.title")} text={t("services.text")}>
       <div className={`${classes["services-contaier"]}`}>
         <CleaningCard
           className={`${classes["first-card"]}`}
@@ -59,6 +52,6 @@ export default function Services() {
           text={t("services.options.scavenge.text")}
         />
       </div>
-    </section>
+    </SectionWrapper>
   );
 }

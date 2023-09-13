@@ -1,6 +1,6 @@
 import PaymentCard from "./UI/PaymentCard";
 import classes from "./Payment.module.css";
-import BeginOfSection from "./UI/BeginOfSection";
+import SectionWrapper from "./UI/SectionWrapper";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -19,8 +19,7 @@ export default function Payment() {
   const { t } = useTranslation();
 
   return (
-    <section id="pricing" className={`${classes["pricing-content"]}`}>
-      <BeginOfSection title={t("pricing.title")} text={t("pricing.text")} />
+    <SectionWrapper id="pricing" className={`${classes["pricing-content"]}`} title={t("pricing.title")} text={t("pricing.text")}>
       <div className={classes.payment}>
         <PaymentCard
           id="1"
@@ -68,6 +67,6 @@ export default function Payment() {
           key={Math.random()}
         />
       </div>
-    </section>
+    </SectionWrapper>
   );
 }

@@ -6,16 +6,5 @@
   align-content: center;
 
   margin: 3rem;
-  width: 100%;
-}
-
-.pricing-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 3rem;
-}
-
-.testimonial {
-
+  width: 80%;
 }

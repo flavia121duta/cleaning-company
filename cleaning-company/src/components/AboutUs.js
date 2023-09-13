@@ -1,16 +1,16 @@
 import classes from "./AboutUs.module.css";
 import useScreenSize from "./hooks/useScreenSize";
-import BeginOfSection from "../components/UI/BeginOfSection";
+import SectionWrapper from "./UI/SectionWrapper";
 import Card from "./UI/Card";
 
-import { useTranslation } from 'react-i18next'
+import { useTranslation } from "react-i18next";
 
 export default function AboutUs() {
   const screenSize = useScreenSize(true);
   const { t } = useTranslation();
 
   return (
-    <section id="about-us" className={classes.container}>
+    <div className={`${classes["about-us-container"]}`}>
       {screenSize !== "mobile" && (
         <img
           className={`${classes["man-cleaning"]}`}
@@ -19,11 +19,12 @@ export default function AboutUs() {
         />
       )}
 
-      <main className={`${classes["about-us"]}`}>
-        <BeginOfSection
-          title={t("about-us.title")}
-          text={t("about-us.text")}
-        />
+      <SectionWrapper
+        className={`${classes["about-us"]}`}
+        title={t("about-us.title")}
+        text={t("about-us.text")}
+        id="about-us"
+      >
 
         <div className={`${classes["container-of-four"]}`}>
           <Card
@@ -47,7 +48,7 @@ export default function AboutUs() {
             text={t("about-us.options.certification.text")}
           />
         </div>
-      </main>
-    </section>
+      </SectionWrapper>
+    </div>
   );
 }

@@ -10,11 +10,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   color: white;
 }
 
@@ -22,16 +17,10 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  width: 80%;
-  /* width: max-content; */
   grid-gap: 1px;
   margin: 3rem auto;
-}
+  width: 80%;
 
-.our-services {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .first-card,
@@ -70,23 +59,4 @@
     border: none;
     border-bottom: 1px solid white;
   }
-}
-
-.title-style {
-  color: white;
-}
-
-.text-style {
-  width: 50%;
-  text-align: center;
-}
-
-.horizontal-line {
-  opacity: 1;
-  border: 0;
-  clear: both;
-  display: block;
-  width: 40px;
-  background-color: #0eb2e7;
-  height: 3px;
 }
