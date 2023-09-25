@@ -3,8 +3,10 @@ import MenuStrip from "../components/MenuStrip";
 import poster from "../assets/images/cleaning-poster.jpeg";
 import Footer from "../components/UI/Footer";
 import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next'
 
 export default function ErrorPage() {
+  const { t } = useTranslation();
   return (
     <div className={`${classes["error-main-body"]}`}>
       <MenuStrip />
@@ -15,18 +17,15 @@ export default function ErrorPage() {
         </div>
         <main className={`${classes["error-content"]}`}>
           <p>
-            It looks like you've wandered into our dustiest corner! Our cleaning
-            crew is on the way to tidy up this mess. In the meantime, here's a
-            joke to keep you entertained:
+            {t("error-page.error-message-p1")}
           </p>
           <p>
-            Why don't mops ever get invited to parties? Because they always
-            leave a wet mess behind!
+          {t("error-page.error-message-p2")}
           </p>
-          <p>We'll have this page squeaky clean in no time!</p>
+          <p>{t("error-page.error-message-p3")}</p>
 
           <Link to="/">
-            <button className={classes.button}>Back to home</button>
+            <button className={classes.button}>{t("error-page.button-message")}</button>
           </Link>
         </main>
       </div>

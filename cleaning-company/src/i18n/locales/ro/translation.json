@@ -1,131 +1,137 @@
 {
-    "navigation": {
-      "home": "Acasă", 
-      "about-us": "Despre Noi",
-      "services": "Servicii",
-      "pricing": "Preţuri",
-      "what-clients-say": "Ce Spun Clienţii",
-      "contact": "Contact",
-      "menu": "Meniu"
-    },
-  
-    "hero-section": {
-      "h1": "Facem ca locuinţa dumneavoastră să strălucească!",
-      "p": "Profesional. Accesibil. De încredere."
-    },
-  
-    "about-us": {
-      "title": "Despre Noi",
-      "text": "Suntem un partener de încredere pentru servicii de curățenie excepționale. Nu lăsăm praf în urmă, făcând locuinţa dumneavoastră să strălucească ca niciodată. Echipa noastră dedicată oferă cele mai înalte standarde de curățenie, fiabilitate și satisfacție clienților.",
-      "options": {
-        "opened": {
-          "title": "Deschis 24/7",
-          "text": "Muncim din greu pentru dumneavoastră."
-        },
-        "prices": {
-          "title": "Preţuri Corecte",
-          "text": "Servicii de curățenie la prețuri accesibile pentru rezultate impecabile pe care le veți îndrăgi."
-        },
-        "staff": {
-          "title": "Echipă Profesionistă",
-          "text": "Suntem po echipă de curățenie profesionistă și cu experiență."
-        },
-        "certification": {
-          "title": "Certificare",
-          "text": "Echipă acreditată & experţi în curăţenie cu experienţă."
-        }
-      }
-    },
-  
-    "services": {
-      "title": "Servicii",
-      "text": "Personalul nostru profesionist va face treaba corect de prima dată, oferindu-vă încrederea că biroul și clădirea dumneavoastră vor arăta întotdeauna cel mai bine.",
-      "options": {
-        "home-cleaning": {
-          "title": "Curăţenie Acasă",
-          "text": "Curățare revoluționară cu tehnologie puternică de aspirare!"
-        },
-        "washing-up": {
-          "title": "Spălare de Vase Murdare",
-          "text": "Vase impecabile, bucătărie strălucitoare - noi facem curat în timp ce dumneavoastră vă relaxaţi"
-        },
-        "cloth-ironing": {
-          "title": "Călcare de Haine",
-          "text": "Țesături impecabile, presate până la perfecțiune."
-        },
-        "window-cleaning": {
-          "title": "Geamuri Curate",
-          "text": "Geamuri curate ca de cristal pentru o privelişte impecabilă."
-        },
-        "washing-clothes": {
-          "title": "Spălare de Haine",
-          "text":  "Experimentați prospețimea cu serviciile noastre de spălătorie de experți chiar de astăzi!"
-        },
-        "scavenge": {
-          "title": "Reciclare",
-          "text": "De la mizerie la curăţenie atât de rapid, gestionăm gunoiul cu grijă."
-        }
-      }
-    },
-  
-    "pricing": {
-      "title": "Preţuri",
-      "text": "Picanha spare ribs pariatur velit pork sirloin. Consequat capicola pastrami non, minim ribeye meatloaf consectetur pork loin ground round bacon quis t-bone labore.",
-      "options": {
-        "regular-cleaning": {
-          "title": "Pachetul Standard",
-          "price": "90€/zi",
-          "places": {
-            "living-room": "Sufragerie",
-            "common-areas": "Zone comune",
-            "kitchen": "Bucărărie",
-            "dining-room": "Sală de mese"
-          }
-        },
-        "green-cleaning": {
-          "title": "Pachetul Eco",
-          "price": "149€/zi",
-          "places": {
-            "living-room": "Sufragerie",
-            "common-areas": "Zone comune",
-            "kitchen": "Bucărărie",
-            "dining-room": "Sală de mese"
-          }
-        },
-        "deep-cleaning": {
-          "title": "Pachetul Premium",
-          "price": "199€/zi",
-          "places": {
-            "living-room": "Sufragerie",
-            "common-areas": "Zone comune",
-            "kitchen": "Bucărărie",
-            "dining-room": "Sală de mese"
-          }
-        }
-      }
-    },
-  
-    "parallax-about-clients": {
-      "projects-done": "Proiecte Realizate",
-      "happy-clients": "Clienţi Mulţumiţi",
-      "experience": "Ani de Experienţă",
-      "people-working": "Angajaţi"
-    },
-  
-    "what-clients-say": {
-      "title": "Ce Spun Clienţii",
-      "text": "În firma noastră ne mândrim cu faptul că oferim servicii de curățenie excepționale clienților noștri. Dar nu trebuie să ne credeți pe cuvânt! Citiți ce au de spus clienţii despre experiența lor."
-    },
-  
-    "footer": {
-      "contact-info": "Informaţii de Contact",
-      "opening-hours": {
-          "title": "Program",
-          "mon-thu": "Luni-Joi",
-          "fri-sat": "Vineri-Sâmătă",
-          "sunday": "Duminică",
-          "closed": "Închis"
+  "navigation": {
+    "home": "Acasă",
+    "about-us": "Despre Noi",
+    "services": "Servicii",
+    "pricing": "Preţuri",
+    "what-clients-say": "Ce Spun Clienţii",
+    "contact": "Contact",
+    "menu": "Meniu"
+  },
+
+  "hero-section": {
+    "h1": "Facem ca locuinţa dumneavoastră să strălucească!",
+    "p": "Profesional. Accesibil. De încredere."
+  },
+
+  "about-us": {
+    "title": "Despre Noi",
+    "text": "Suntem un partener de încredere pentru servicii de curățenie excepționale. Nu lăsăm praf în urmă, făcând locuinţa dumneavoastră să strălucească ca niciodată. Echipa noastră dedicată oferă cele mai înalte standarde de curățenie, fiabilitate și satisfacție clienților.",
+    "options": {
+      "opened": {
+        "title": "Deschis 24/7",
+        "text": "Muncim din greu pentru dumneavoastră."
+      },
+      "prices": {
+        "title": "Preţuri Corecte",
+        "text": "Servicii de curățenie la prețuri accesibile pentru rezultate impecabile pe care le veți îndrăgi."
+      },
+      "staff": {
+        "title": "Echipă Profesionistă",
+        "text": "Suntem po echipă de curățenie profesionistă și cu experiență."
+      },
+      "certification": {
+        "title": "Certificare",
+        "text": "Echipă acreditată & experţi în curăţenie cu experienţă."
       }
     }
+  },
+
+  "services": {
+    "title": "Servicii",
+    "text": "Personalul nostru profesionist va face treaba corect de prima dată, oferindu-vă încrederea că biroul și clădirea dumneavoastră vor arăta întotdeauna cel mai bine.",
+    "options": {
+      "home-cleaning": {
+        "title": "Curăţenie Acasă",
+        "text": "Curățare revoluționară cu tehnologie puternică de aspirare!"
+      },
+      "washing-up": {
+        "title": "Spălare de Vase Murdare",
+        "text": "Vase impecabile, bucătărie strălucitoare - noi facem curat în timp ce dumneavoastră vă relaxaţi"
+      },
+      "cloth-ironing": {
+        "title": "Călcare de Haine",
+        "text": "Țesături impecabile, presate până la perfecțiune."
+      },
+      "window-cleaning": {
+        "title": "Geamuri Curate",
+        "text": "Geamuri curate ca de cristal pentru o privelişte impecabilă."
+      },
+      "washing-clothes": {
+        "title": "Spălare de Haine",
+        "text": "Experimentați prospețimea cu serviciile noastre de spălătorie de experți chiar de astăzi!"
+      },
+      "scavenge": {
+        "title": "Reciclare",
+        "text": "De la mizerie la curăţenie atât de rapid, gestionăm gunoiul cu grijă."
+      }
+    }
+  },
+
+  "pricing": {
+    "title": "Preţuri",
+    "text": "Descoperă servicii de curățenie la prețuri competitive pentru a-ți transforma casa într-un spațiu imaculat fără a afecta bugetul familiei tale. Contactează-ne astăzi pentru a primi o ofertă personalizată care să se potrivească nevoilor tale de curățenie.",
+    "options": {
+      "regular-cleaning": {
+        "title": "Pachetul Standard",
+        "price": "90€/zi",
+        "places": {
+          "living-room": "Sufragerie",
+          "common-areas": "Zone comune",
+          "kitchen": "Bucărărie",
+          "dining-room": "Sală de mese"
+        }
+      },
+      "green-cleaning": {
+        "title": "Pachetul Eco",
+        "price": "149€/zi",
+        "places": {
+          "living-room": "Sufragerie",
+          "common-areas": "Zone comune",
+          "kitchen": "Bucărărie",
+          "dining-room": "Sală de mese"
+        }
+      },
+      "deep-cleaning": {
+        "title": "Pachetul Premium",
+        "price": "199€/zi",
+        "places": {
+          "living-room": "Sufragerie",
+          "common-areas": "Zone comune",
+          "kitchen": "Bucărărie",
+          "dining-room": "Sală de mese"
+        }
+      }
+    }
+  },
+
+  "parallax-about-clients": {
+    "projects-done": "Proiecte Realizate",
+    "happy-clients": "Clienţi Mulţumiţi",
+    "experience": "Ani de Experienţă",
+    "people-working": "Angajaţi"
+  },
+
+  "what-clients-say": {
+    "title": "Ce Spun Clienţii",
+    "text": "În firma noastră ne mândrim cu faptul că oferim servicii de curățenie excepționale clienților noștri. Dar nu trebuie să ne credeți pe cuvânt! Citiți ce au de spus clienţii despre experiența lor."
+  },
+
+  "footer": {
+    "contact-info": "Informaţii de Contact",
+    "opening-hours": {
+      "title": "Program",
+      "mon-thu": "Luni-Joi",
+      "fri-sat": "Vineri-Sâmătă",
+      "sunday": "Duminică",
+      "closed": "Închis"
+    }
+  },
+
+  "error-page": {
+    "error-message-p1": "Se pare că ai ajuns în cel mai prăfuit colț al site-ului! Echipa noastră de curățenie este în drum spre a face ordine aici. Între timp, iată o glumă ca să te distrezi:",
+    "error-message-p2": "De ce mopul a fost supărat pe ștergătorul de ferestre? Pentru că mereu se simțea pus la colț!",
+    "error-message-p3": "Vom face această pagină să strălucească într-o clipită!",
+    "button-message": "Înapoi la pagina principală"
   }
-  
+}

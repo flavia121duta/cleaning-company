@@ -26,8 +26,3 @@ body {
   margin-top: -9rem;
 }
 
-:target {
-  border: 2px solid #d4d4d4;
-  background-color: orange;
-  color: white;
-}

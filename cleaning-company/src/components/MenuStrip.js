@@ -7,8 +7,8 @@ export default function MenuStrip() {
 
   return (
     <div className={classes.strip}>
-      <div className={classes.details}>
-        <LanguageSelector />
+      <div className={classes.details} >
+        <LanguageSelector/>
       </div>
       {screenSize !== "mobile" && (
         <div className={classes.details}>

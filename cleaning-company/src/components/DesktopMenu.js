@@ -27,7 +27,9 @@ export default function DesktopMenu() {
         </li>
 
         <li className={classes.logo}>
-          <img src={logo} alt="Double R" />
+          <AnchorLink href="#hero-section" className="anchor-link">
+            <img src={logo} alt="Double R" />
+          </AnchorLink>
         </li>
 
         <li>

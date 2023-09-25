@@ -70,7 +70,7 @@
 
   "pricing": {
     "title": "Pricing Tables",
-    "text": "Picanha spare ribs pariatur velit pork sirloin. Consequat capicola pastrami non, minim ribeye meatloaf consectetur pork loin ground round bacon quis t-bone labore.",
+    "text": "Discover competitively priced cleaning services to turn your home into a spotless space without straining your family budget. Contact us today to receive a personalized offer tailored to your cleaning needs.",
     "options": {
       "regular-cleaning": {
         "title": "Regular Cleaning",
@@ -121,10 +121,17 @@
     "contact-info": "Contact Info",
     "opening-hours": {
         "title": "Opening Hours",
-        "mon-thu": "Mon-Thu",
-        "fri-sat": "Fri-Sat",
+        "mon-thu": "Monday-Thusday",
+        "fri-sat": "Friday-Saturday",
         "sunday": "Sunday",
         "closed": "Closed"
     }
+  },
+
+  "error-page": {
+    "error-message-p1": "It looks like you've wandered into our dustiest corner! Our cleaning crew is on the way to tidy up this mess. In the meantime, here's a joke to keep you entertained:",
+    "error-message-p2": "Why don't mops ever get invited to parties? Because they always leave a wet mess behind!",
+    "error-message-p3": "We'll have this page squeaky clean in no time!",
+    "button-message": "Back to home"
   }
 }

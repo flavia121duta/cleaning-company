@@ -3,8 +3,14 @@
   align-items: center;
 }
 
+.stip {
+  position: relative;
+}
+
 .details {
   margin-left: 20px;
+  position: sticky;
+  top: 0;
 }
 
 .details a {
@@ -28,4 +34,3 @@
 .strip {
   height: 80px;
 }
-

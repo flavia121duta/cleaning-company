@@ -70,7 +70,7 @@
 
   "pricing": {
     "title": "Preistabellen",
-    "text": "Picanha spare ribs pariatur velit pork sirloin. Consequat capicola pastrami non, minim ribeye meatloaf consectetur pork loin ground round bacon quis t-bone labore.",
+    "text": "Entdecken Sie preiswerte Reinigungsdienste, um Ihr Zuhause in einen makellosen Raum zu verwandeln, ohne Ihr Familienbudget zu belasten. Kontaktieren Sie uns noch heute, um ein auf Ihre Reinigungsbedürfnisse zugeschnittenes, personalisiertes Angebot zu erhalten.",
     "options": {
       "regular-cleaning": {
         "title": "Regelmäßige Reinigung",
@@ -126,5 +126,12 @@
       "sunday": "Sonntag",
       "closed": "Geschlossen"
     }
+  },
+
+  "error-page": {
+    "error-message-p1": "Es sieht so aus, als wärst du in unsere staubigste Ecke geraten! Unsere Reinigungsmannschaft ist auf dem Weg, um dieses Durcheinander aufzuräumen. In der Zwischenzeit hier ist ein Witz, um dich zu unterhalten:",
+    "error-message-p2": "Warum werden Mopps nie zu Partys eingeladen? Weil sie immer eine nasse Sauerei hinterlassen!",
+    "error-message-p3": "Wir werden diese Seite im Handumdrehen blitzsauber haben!",
+    "button-message": "Zurück zur Hauptseite"
   }
 }
